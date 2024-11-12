@@ -21,7 +21,7 @@ Finalmente, se utilizó **Cucumber** para la [generación de reportes detallados
 
 Para poder ejecutar este proyecto de forma correcta, se debe cumplir con los siguientes prerequisitos en tu máquina local:
 
-- **IDE Recomendado**: [IntelliJ IDEA]
+- **IDE Recomendado**: [[IntelliJ IDEA](https://www.jetbrains.com/idea/download/?section=windows)]
 - **JDK**: [[JDK versión](https://docs.aws.amazon.com/corretto/) 11 -17 (configurado en la variable de entorno `JAVA_HOME`)] 
 - **Maven**: [[Maven versión](https://maven.apache.org/download.cgi) 3.9.1 o superiores (configurado en la variable de entorno `M2_HOME`)]
 
