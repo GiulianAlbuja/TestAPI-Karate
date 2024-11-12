@@ -53,4 +53,5 @@ Ejecute la clase `ManagementTest`. Ubicada en `src/test/java/pets/ManagementTest
 Solamente con este paso se ejecutarán todos los escenarios a validar. Además, se generará el reporte respectivo en al siguiente ruta:  `target/cucumber-html-reports/report-feature_[id].html`.
 
 
-![image](https://github.com/user-attachments/assets/b2d03201-393e-44af-aef7-d91312a16cfe)
+![Screenshot 2024-11-11 121332](https://github.com/user-attachments/assets/c6300e29-1729-47e1-a5fa-c55fb8667268)
+
