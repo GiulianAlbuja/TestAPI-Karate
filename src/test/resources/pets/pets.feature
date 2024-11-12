@@ -72,7 +72,7 @@ Feature: Get pet test on petstore.swagger
     Then status 200
     Examples:
       | petId  | categoryName | petName          | status   |
-      | 575789 | Cat          | Tasmy Evangeline | pretty   |
+      | 575789 | Cat          | Tasmy Evangeline | sold     |
       | 575790 | Dog          | Coffe Fatimaria  | cheerful |
 
 
@@ -84,7 +84,7 @@ Feature: Get pet test on petstore.swagger
     Then status 200
     Examples:
       | previousId | status           |
-      | 575789     | prettyBeautiful |
+      | 575789     | sold            |
       | 575790     | prettyCheerful  |
 
   Scenario Outline: Get previously admitted pet with status
@@ -94,5 +94,5 @@ Feature: Get pet test on petstore.swagger
     And match $..status contains [<actualStatus>]
     Examples:
       | previousStatus   | actualStatus     |
-      | prettyBeautiful | prettyBeautiful |
+      | sold            | sold            |
       | prettyCheerful  | prettyCheerful  |
